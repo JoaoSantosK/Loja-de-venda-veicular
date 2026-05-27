@@ -89,7 +89,7 @@ section.banner{
 	width: 100%;
 	height: 650px;
 	background-color: black;
-	background-image: url('../img/bg.jpg');
+	background-image: url('../img/banner.png');
 	background-size: contain;
 	background-position: right bottom;
 	background-repeat: no-repeat;
@@ -594,7 +594,7 @@ section.venda-single .container{
 	top: 50%;
 	left: 8px;
 	position: absolute;
-	background-image: url(../img/arrow-left.png);
+	background-image: url('../img/arrow-left.png');
 	background-size: 100% 100%;
 	width: 22px;
 	height: 22px;
@@ -607,7 +607,7 @@ section.venda-single .container{
 	top: 50%;
 	right: 8px;
 	position: absolute;
-	background-image: url(../img/arrow-right.png);
+	background-image: url('../img/arrow-right.png');
 	background-size: 100% 100%;
 	width: 22px;
 	height: 22px;
