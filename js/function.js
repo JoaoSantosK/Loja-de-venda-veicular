@@ -152,7 +152,7 @@ $(function(){
     $(document).ready(function(){
         $('.contato-link').click(function(e){
             e.preventDefault();
-            window.location.href = 'Projeto5.html?contato';
+            window.location.href = 'index.html?contato';
         });
     });
 
@@ -177,10 +177,10 @@ $(function(){
 
     //Mudando URL do site
 
-    var directory = '/Projetos/Projeto 5';
+    var directory = '/Projetos/loja-veiculo';
 
     $('[goto=contato]').click(function(e){   //? diz parâmetro, para colocar mais parâmetros é só utilizar & após o ?
-        location.href = directory + '/Projeto5.html?contato';
+        location.href = directory + '/index.html?contato';
         return false;
     });
 
@@ -204,7 +204,7 @@ $(function(){
         $(this).find('ul').slideToggle();
     });
 
-    //Sistema de navegação nos depoimentos do Projeto5.html
+    //Sistema de navegação nos depoimentos do index.html
 
     var amtDepoimento = $('.depoimento-single p').length;
     var curIndex = 0;
